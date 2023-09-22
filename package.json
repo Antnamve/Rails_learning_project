@@ -2,15 +2,14 @@
   "name": "app",
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    "@rails/ujs": "^7.0.7-2",
-    "autoprefixer": "^10.4.15",
+    "autoprefixer": "^10.4.16",
     "bootstrap": "^5.3.1",
-    "bootstrap-icons": "^1.10.5",
+    "bootstrap-icons": "^1.11.1",
     "esbuild": "^0.19.2",
     "nodemon": "^3.0.1",
     "postcss": "^8.4.29",
     "postcss-cli": "^10.1.0",
-    "sass": "^1.66.1",
+    "sass": "^1.68.0",
     "turbolinks": "^5.2.0"
   },
   "scripts": {
@@ -23,5 +22,8 @@
   "browserslist": [
     "defaults"
   ],
-  "packageManager": "yarn@3.6.3"
+  "packageManager": "yarn@3.6.3",
+  "devDependencies": {
+    "@rails/ujs": "^7.0.8"
+  }
 }
