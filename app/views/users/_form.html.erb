@@ -50,7 +50,8 @@
        <%= f.password_field :old_password, class: 'form-control form-control-lg' %>
       </div>
     </div>
+  <% end %>
 
   <%= f.submit (@user.new_record? ? "Register!" : 'Save!'),
     class: 'btn btn-primary btn-lg' %>
-<% end %>
+  <% end %>
